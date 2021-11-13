@@ -1,0 +1,14 @@
+{
+  "name": "tau_playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "first.js",
+  "scripts": {
+    "test": "node checkradio.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "latest"
+  }
+}
