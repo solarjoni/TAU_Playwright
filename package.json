@@ -4,11 +4,12 @@
   "description": "",
   "main": "first.js",
   "scripts": {
-    "test": "node checkradio.js"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^27.3.1",
     "playwright": "latest"
   }
 }

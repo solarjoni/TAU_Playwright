@@ -8,7 +8,16 @@ const { chromium } = require('playwright');
   //creating a page inside a browser
   const page = await browser.newPage();
   //navigating to site
-  await page.goto('https://google.com');
+  await page.goto('https://paint.js.org');
+  await page.mouse.move(200,200);
+  await page.mouse.down();
+  await page.mouse.move(400,200);
+  await page.mouse.move(400,400);
+  await page.mouse.move(200,400);
+  await page.mouse.move(200,200);
+  await page.mouse.up();
+
+
   //closing browser
   await browser.close();
 
