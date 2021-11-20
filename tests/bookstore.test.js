@@ -3,7 +3,7 @@ const { chromium } = require('playwright');
 
 describe('UI tests for bookstore using playwright', () => {
 
-    jest.setTimeout(10000);
+    jest.setTimeout(30000);
     let browser = null;
     let page = null;
     let context = null;
@@ -11,7 +11,7 @@ describe('UI tests for bookstore using playwright', () => {
 
 
     beforeAll(async() => {
-        browser = await chromium.launch( {headless: false} );
+        browser = await chromium.launch( {headless: true} );
         context = await browser.newContext();
         page = await context.newPage();
         await page.goto('https://demoqa.com/books');
