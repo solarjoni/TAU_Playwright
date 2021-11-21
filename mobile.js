@@ -19,7 +19,7 @@ const iPhone = devices['iPhone 11'];
   
   await page.goto('https://www.delfi.lt');
   //navigating to site
-  await waitForTimeout(3000); //not in a production !!!
+  await page.waitForTimeout(3000); //not in a production !!!
   //closing browser
   await browser.close();
 

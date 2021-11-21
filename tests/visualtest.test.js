@@ -1,4 +1,3 @@
-const { TestWatcher } = require('@jest/core');
 const { chromium } = require('playwright');
 const { ClassicRunner, Eyes, Target, RectangleSize } = require('@applitools/eyes-playwright');
 describe('UI tests for dynamic content using playwright and aplitools', () => {

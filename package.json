@@ -7,12 +7,16 @@
     "test": "jest"
   },
   "jest": {
-    "testPathIgnorePatterns":["/tests"]
+    "testPathIgnorePatterns": [
+      "/test",
+      "/pw_test"
+    ]
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@applitools/eyes-playwright": "^1.11.1",
+    "@applitools/eyes-playwright": "latest",
+    "@playwright/test": "latest",
     "jest": "latest",
     "playwright": "latest"
   }
